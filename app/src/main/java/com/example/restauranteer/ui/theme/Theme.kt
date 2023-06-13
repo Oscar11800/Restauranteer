@@ -1,4 +1,4 @@
-package com.example.Restauranteer.ui.theme
+package com.example.restauranteer.ui.theme
 
 import android.app.Activity
 import android.os.Build

@@ -1,4 +1,4 @@
-package com.example.Restauranteer
+package com.example.restauranteer
 
 import org.junit.Test
 
