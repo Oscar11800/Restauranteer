@@ -7,8 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="@drawable/loginbkg"
-    tools:context=".MainActivity">
+    android:background="@drawable/loginbkg">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -38,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Connect with your friends now to explore fine dining options in your area"
-                android:textSize="14dp"
+                android:textSize="14sp"/>
             <EditText
                 android:textSize="18sp"
                 android:gravity="center_vertical"
@@ -66,13 +65,13 @@
                 android:textColor="@color/black"
                 android:drawablePadding="8dp"/>
             <Button
-                android android:textSize="15dp"
+                android:textSize="15sp"
                 android:layout_marginTop="10dp"
                 android:textColor="@color/bluelink"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Forgot Password?"
-                android:textStyle="bold"
+                android:textStyle="bold"/>
             <Button
                 app:cornerRadius = "20dp"
                 android:gravity="center"
